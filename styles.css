@@ -1,0 +1,35 @@
+body{
+    background-color: #13005A;
+    display: flex;
+    justify-content: center;
+}
+.container_video{
+    height:800px;
+    width: 720px;
+}
+.controls{
+    width: 720px;
+    background-color: #00337C;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+button:not(.volumen){
+    width: 120px;
+}
+
+button{
+    margin: 0 10px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #1C82AD;
+    border: none;
+    color: white;
+
+}
+button:hover{
+    background-color: #03C988;
+    cursor: pointer;
+}
